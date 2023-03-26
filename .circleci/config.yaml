@@ -26,7 +26,7 @@ jobs:
       - image: circleci/node:13.8.0
     steps:
       - run:
-          name: "Print Hello World"
+          name: "Hello World"
           command: echo "Hello World"
       - run: |
           mkdir -p /tmp/test
